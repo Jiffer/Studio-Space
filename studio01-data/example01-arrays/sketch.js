@@ -22,7 +22,7 @@ function draw() {
   	// element 2 contains the color value
     fill(rectXY[i][2]);
     // elements 0 and 1 contain the x and y coordinates
-    rect(rectXY[i][0], rectXY[i][1], 50, 25);
+    ellipse(rectXY[i][0], rectXY[i][1], 50, 50);
 
     // uncomment to animate
     // rectXY[i][1] += 1;
@@ -31,5 +31,6 @@ function draw() {
 
 // built in mousePressed callback function
 function mousePressed() {
+  // add an array to the array rectXY 
   rectXY.push([mouseX, mouseY, random(255)]);
 }
