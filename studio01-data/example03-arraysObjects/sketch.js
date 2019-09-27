@@ -23,7 +23,7 @@ function draw() {
 // mousePressed() callback function
 function mousePressed() {
   // construct and push a new object onto the array
-  rectObjs.push(new myRectObj(mouseX, mouseY, random(255)));
+  rectObjs.push(new myRectObj(mouseX, mouseY, color(100, 23, 150)));
 }
 
 

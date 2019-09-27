@@ -1,6 +1,6 @@
 var jsonThing;
 function preload(){
-jsonThing = loadJSON("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=2766afd92bbcd1446ef143934c241f39", 
+jsonThing = loadJSON("http://api.openweathermap.org/data/2.5/weather?q=Boulder&APPID=2766afd92bbcd1446ef143934c241f39", 
 	gotDataCallback,  "jsonp");
 
 }
